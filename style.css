@@ -1,0 +1,201 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #222 url("image1.jpg") no-repeat center/cover fixed;
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 95%;
+}
+
+li {
+    background: #fff;
+    padding: 10px;
+    width: 90%;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex-wrap: wrap;
+}
+
+li p {
+    flex: 1;
+    color: #333;
+    word-break: break-word;
+    padding-right: 10px;
+    margin: 0;
+}
+
+.div1 {
+    padding: 10px;
+    text-align: center;
+    width: 95%;
+    box-shadow: 5px 10px 20px orange;
+    background-image: linear-gradient(to right, orange, pink);
+}
+
+.div2 {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 5px 10px 20px pink;
+    background-image: linear-gradient(to right, pink, orange);
+    width: 95%;
+    height: 320px;
+    overflow-y: auto;
+}
+
+.div3 {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 5px 15px;
+    height: auto;
+    margin: 0 auto;
+    background: linear-gradient(to right, #555, #000);
+    border: 2px solid white;
+    box-shadow: 5px 10px 20px red;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+button {
+    cursor: pointer;
+    box-shadow: 5px 10px 20px black;
+    border: 1px solid white;
+    padding: 5px 10px;
+    margin-left: 5px;
+    border-radius: 4px;
+}
+
+input {
+    width: 90%;
+    height: 30px;
+    margin: 10px auto;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+.btn {
+    color: red;
+}
+
+.edit {
+    color: green;
+}
+
+@media (min-width: 480px) {
+    .div3 {
+        width: 85%;
+    }
+    .div2 {
+        width: 95%;
+    }
+    .div1 {
+        width: 95%;
+    }
+    input{
+        width:90%;
+    }
+}
+
+@media (min-width: 640px) {
+    .div3 {
+        width: 80%;
+    }
+    .div2 {
+        width: 95%;
+    }
+    .div1 {
+        width: 95%;
+    }
+    input{
+        width:90%;
+    }
+}
+
+@media (min-width: 768px) {
+    .div3 {
+        width: 75%;
+    }
+    .div2 {
+        width: 95%;
+    }
+    .div1 {
+        width: 95%;
+    }
+    input{
+        width:90%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .div3 {
+        width: 70%;
+    }
+    .div2 {
+        width: 95%;
+    }
+    .div1 {
+        width: 95%;
+    }
+    input{
+        width:90%;
+    }
+}
+
+@media (min-width: 1260px) {
+    .div3 {
+        width: 65%;
+    }
+    .div2 {
+        width: 95%;
+    }
+    .div1 {
+        width: 95%;
+    }
+    input{
+        width:90%;
+    }
+}
+
+@media (min-width: 1536px) {
+    .div3 {
+        width: 60%;
+    }
+    .div2 {
+        width: 95%;
+    }
+    .div1 {
+        width: 95%;
+    }
+    input{
+        width:90%;
+    }
+}
